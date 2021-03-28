@@ -74,7 +74,7 @@ class TaskAnalytics extends React.Component {
                     type: "category",
                     boundaryGap: false,
                     data: this.state.xAxisArray,
-                    name: "Tasks creation logs",
+                    name: "Dates",
                     nameLocation: "center",
                     nameGap: 28,
                     nameTextStyle: {
@@ -83,7 +83,7 @@ class TaskAnalytics extends React.Component {
                   },
                   yAxis: {
                     type: "value",
-                    name: "Tasks created per day",
+                    name: "Tasks submitted per day",
                     nameLocation: "center",
                     nameGap: 28,
                     nameTextStyle: {
